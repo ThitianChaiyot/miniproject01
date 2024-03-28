@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.HDP{
+    background-color: #F0EBE5
+}
+/*--------------Start Header-------------*/
+header{
+    background-color: blueviolet;
+
+}
+
+nav{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+    height: 48px;
+    /* background-color: aquamarine; */
+    
+}
+
+.logo{
+    align-items: center;
+    width: 300px;
+    display: flex; /*ใช้ขยับ*/
+    margin-left: 15px;
+
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.HDP{
+
+    color: brown;
+    margin: auto;
+    width: 1100px;
+
+}
+
+.dpimg{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.DP{
+    background-color: #F0EBE5;
+    margin: auto;
+    align-items: center;
+    
+
+}
+
+
+   
+    
+.images {
+    width:100%
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+
+
+.text-param{
+    font-weight: 500;
+}
+
+.Pricing-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+}
+
+.Pricing-box1{
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #000000;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box2 {
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #000000;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box3 {
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #000000;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+
+footer{
+    background-color: #110202;
+}
+
